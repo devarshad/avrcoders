@@ -1,0 +1,13 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+
+@{
+    ViewBag.Title = "Page not found";
+}
+<h1 class="text-danger">Error.</h1>
+<h2 class="text-danger">Page you request does not exist.</h2>
+@if (Model != null)
+{
+    <div>Controller: <span class="text-danger">@Model.ControllerName</span></div>
+    <div>Action: <span class="text-danger">@Model.ActionName</span></div>
+    <h4 class="text-danger">@Model.Exception.Message</h4>
+}

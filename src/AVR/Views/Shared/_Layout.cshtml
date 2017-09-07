@@ -1,0 +1,237 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - AVR Coders</title>
+</head>
+<body>
+    <!--============================== Header =================================-->
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <h1><a class="navbar-brand" href="/"><img src="images/logo.png" alt="AVR Coders"></a></h1>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="with-ul current"><a href="index.html">Home</a></li>
+                        <li><a href="index-1.html">About</a></li>
+                        <li><a href="index-2.html">Services</a></li>
+                        <li><a href="index-3.html">Projects</a></li>
+                        <li><a href="index-4.html">Blog</a></li>
+                        <li><a href="index-5.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        @*<div class="container">
+                <h1><a href="index.html"><img src="images/logo.png" alt="Brand Logo"></a></h1>
+                <ul class="sf-menu sf-js-enabled sf-arrows">
+                    <li class="with-ul current"><a href="index.html">Home</a></li>
+                    <li><a href="index-1.html">About</a></li>
+                    <li><a href="index-2.html">Services</a></li>
+                    <li><a href="index-3.html">Projects</a></li>
+                    <li><a href="index-4.html">Blog</a></li>
+                    <li><a href="index-5.html">Contact</a></li>
+                </ul>
+            </div>*@
+    </header>
+
+    <!--======= Content ================================-->
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <!--========= List in Columns =========-->
+    @*<div class="row_block row_block__indent-3 list-col bg-1">
+            <div class="container">
+                <div class="row">
+                    <ul class="grid_2">
+                        <li><h4>LOCATION</h4></li>
+                        <li>8901 Mramora road,</li>
+                        <li>Glasgow, D04 89GR.</li>
+                        <li>Phone: +1 800 333 90</li>
+                    </ul>
+                    <ul class="grid_2">
+                        <li><h4>ARTICLES</h4></li>
+                        <li><a href="#">Donec adipiscing alleti</a></li>
+                        <li><a href="#">Nullam sodales fermel</a></li>
+                        <li><a href="#">Curabitur eu nulla</a></li>
+                    </ul>
+                    <ul class="grid_2">
+                        <li><h4>Information</h4></li>
+                        <li><a href="#">Maecenas suscipit all</a></li>
+                        <li><a href="#">Ut ornare nisl noner </a></li>
+                        <li><a href="#">Aenean vitae eros </a></li>
+                    </ul>
+                    <ul class="grid_2">
+                        <li><h4>Recent Posts</h4></li>
+                        <li><a href="#">Aenean et turpis eget</a></li>
+                        <li><a href="#">Etiam nisi mauris, ali</a></li>
+                        <li><a href="#">Donec tincidunt</a></li>
+                    </ul>
+                    <ul class="grid_2">
+                        <li><h4>Extras</h4></li>
+                        <li><a href="#">Vivamus arcu semert</a></li>
+                        <li><a href="#">Aenean aliquet erosl</a></li>
+                        <li><a href="#">Duis eget egestas</a></li>
+                    </ul>
+                    <ul class="grid_2">
+                        <li><h4>Contact Us</h4></li>
+                        <li><a href="#">Google Plus</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>*@
+
+    <!--======= Footer =================================-->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <ul class="grid_2">
+                    <li><h4>LOCATION</h4></li>
+                    <li>8901 Mramora road,</li>
+                    <li>Glasgow, D04 89GR.</li>
+                    <li>Phone: +1 800 333 90</li>
+                </ul>
+                <ul class="grid_2">
+                    <li><h4>ARTICLES</h4></li>
+                    <li><a href="#">Donec adipiscing alleti</a></li>
+                    <li><a href="#">Nullam sodales fermel</a></li>
+                    <li><a href="#">Curabitur eu nulla</a></li>
+                </ul>
+                <ul class="grid_2">
+                    <li><h4>Information</h4></li>
+                    <li><a href="#">Maecenas suscipit all</a></li>
+                    <li><a href="#">Ut ornare nisl noner </a></li>
+                    <li><a href="#">Aenean vitae eros </a></li>
+                </ul>
+                <ul class="grid_2">
+                    <li><h4>Recent Posts</h4></li>
+                    <li><a href="#">Aenean et turpis eget</a></li>
+                    <li><a href="#">Etiam nisi mauris, ali</a></li>
+                    <li><a href="#">Donec tincidunt</a></li>
+                </ul>
+                @*<ul class="grid_2">
+                        <li><h4>Extras</h4></li>
+                        <li><a href="#">Vivamus arcu semert</a></li>
+                        <li><a href="#">Aenean aliquet erosl</a></li>
+                        <li><a href="#">Duis eget egestas</a></li>
+                    </ul>
+                    <ul class="grid_2">
+                        <li><h4>Contact Us</h4></li>
+                        <li><a href="#">Google Plus</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>*@
+                <ul class="grid_4">
+                    <li>
+                        <div class="footer__right-section">
+                            <div class="footer__logo mt20 mb30">
+                                <a href="/">
+                                    <img class="img-responsive" src="~/Images/logo.png" alt="Urban Homez">
+                                </a>
+                            </div>
+
+                            <div class="footer__social mb30">
+                                <span class="fa-stack fa-lg">
+                                    <a href="https://www.facebook.com/UrbanHomez" target="_blank">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                    </a>
+                                </span>
+                                <span class="fa-stack fa-lg">
+                                    <a href="https://plus.google.com/u/0/+Constructionmarketsdotcom/posts" target="_blank">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+                                    </a>
+                                </span>
+                                <span class="fa-stack fa-lg">
+                                    <a href="https://twitter.com/UrbanHomez" target="_blank">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                    </a>
+                                </span>
+                                <span class="fa-stack fa-lg">
+                                    <a href="http://www.pinterest.com/urbanhomez/" target="_blank">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-pinterest fa-stack-1x fa-inverse"></i>
+                                    </a>
+                                </span>
+                            </div>
+
+                            <div class="footer__copyright-section">
+                                <ul>
+                                    <li>
+                                        <a href="#">Privacy Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Terms Of Use</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact Us  </a>
+                                    </li>
+                                </ul>
+                                <p>
+                                    © 2014 All Rights Reserved. <a href="http://www.avrcoders.com/">www.avrcoders.com</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--{%FOOTER_LINK} -->
+    </footer>
+    <div class="chat-window">
+        <div class="chat-window-title">
+            <div class="text">
+                <a>
+                    <i class="fa fa-envelope"></i> Leave a message<i style="    float: right;display:none" class="fa fa-times"></i>
+                </a>
+            </div>
+        </div>
+        <div class="chat-window-content" style="display: none;">
+            <h4>Feedback</h4>
+            <form action="/Home/Contact" class="ContactUs" method="post" role="form" novalidate="novalidate">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <input class="form-control input-sm" data-val="true" data-val-length="The Name must be at least 4 characters long." data-val-length-max="100" data-val-length-min="4" data-val-regex="The field Name must match the regular expression '^[a-zA-Z ]*$'." data-val-regex-pattern="^[a-zA-Z ]*$" data-val-required="The Name field is required." id="Name" name="Name" placeholder="Enter your name" type="text" value="">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control input-sm" data-val="true" data-val-email="The Email field is not a valid e-mail address." data-val-required="The Email field is required." id="Email" name="Email" placeholder="Enter your email address" type="text" value="">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control input-sm" cols="20" data-val="true" data-val-required="The Message field is required." id="Message" name="Message" placeholder="Enter your message" rows="2"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" style="margin-left: 70px;" class="btn btn-primary btn-sm ">Submit</button>
+                    </div>
+                </div>
+            </form>
+            <div class="ContactUsSucess" style="display: none;">
+                <span>Thanks for your valuable response.<br />We will return with you shortly.</span>
+            </div>
+        </div>
+    </div>
+    <!--======= To Top Button =================================-->
+    <a href="#" id="toTop" style="margin-right: -65px; right: 50%; display: none;">
+        <span id="toTopHover"></span>
+        <i class="fa fa-angle-up"></i>
+    </a>
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Styles.Render("~/Content/cssWithFont")
+</body>
+</html>
